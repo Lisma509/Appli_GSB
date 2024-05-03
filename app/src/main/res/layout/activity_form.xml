@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rapport de visite"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Praticien"
+        android:id="@+id/praticien_Et"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:id="@+id/date_Et"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Motif"
+        android:id="@+id/motif_Et"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Bilan"
+        android:id="@+id/bilan_Et"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Medicament"
+        android:id="@+id/medicament_Et"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Avis du consultant"
+        android:id="@+id/avis_Et"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit_btn"/>
+
+
+
+
+
+</LinearLayout>

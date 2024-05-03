@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item2"
+        android:title="consulter ses comptes rendues "
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item3"
+        android:title="créer un compte rendue de visite"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item4"
+        android:title="Deconnexion"
+        app:showAsAction="never">
+
+
+
+    </item>
+</menu>
